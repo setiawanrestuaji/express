@@ -18,4 +18,4 @@ http.createServer(function (req, res) {
   res.end('Hello Node.js\n');
 }).listen(3000, "0.0.0.0");
 
-console.log('Server running at http://192.168.1.1:80/');
+console.log('Server running at 0.0.0.0:3000/');
